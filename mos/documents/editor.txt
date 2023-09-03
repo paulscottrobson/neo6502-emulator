@@ -1,0 +1,20 @@
+Editor
+======
+
+Tracking what is/isn't a multi line entry
+
+	On CLS every line is set as a CR line.
+
+	Cursor advance => CR Code - set non CR line.
+	CR printed - set CR line.
+	Scrolling - moves everything up one.
+
+Keys:
+	Movement keys etc. move around.
+
+	Get frame - how far up/down the current extends. 
+
+	DEL - delete at point
+	BS - left one and delete at point
+	Char - insert at point if space available.	
+	CR - text to buffer, strip trailing spaces, move cursor to point after.	
